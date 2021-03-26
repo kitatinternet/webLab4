@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center_horizontal"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textViewMessage"
+            android:layout_width="match_parent"
+            android:layout_height="30dp" />
+
+        <ImageButton
+            android:id="@+id/imageButtonLogin"
+            android:layout_width="75dp"
+            android:layout_height="36dp"
+            android:layout_gravity="center_horizontal|top"
+            android:background="#FFFFFF"
+            android:onClick="loginActivity"
+            android:scaleType="fitStart"
+            app:srcCompat="@drawable/login" />
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="187dp"
+            android:layout_height="wrap_content"
+            android:gravity="center|top"
+            android:paddingBottom="25dp"
+            android:text="Login for Examiner"
+            android:textColor="#F44336"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <ImageButton
+            android:id="@+id/imageButtonEnterView"
+            android:layout_width="56dp"
+            android:layout_height="95dp"
+            android:layout_gravity="center|top"
+            android:layout_weight="1"
+            android:background="#FFFFFF"
+            android:onClick="applicantActivity"
+            android:scaleType="fitStart"
+            android:visibility="invisible"
+            app:srcCompat="@drawable/enterview" />
+
+        <TextView
+            android:id="@+id/textViewEnterView"
+            android:layout_width="217dp"
+            android:layout_height="74dp"
+            android:layout_weight="1"
+            android:gravity="center|top"
+            android:paddingBottom="25dp"
+            android:text="Enter / View Applicat"
+            android:textColor="#FF5722"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:visibility="invisible" />
+
+        <ImageButton
+            android:id="@+id/imageButtonEnterTest"
+            android:layout_width="57dp"
+            android:layout_height="90dp"
+            android:layout_gravity="center|top"
+            android:layout_weight="1"
+            android:background="#FFFFFF"
+            android:onClick="testActivity"
+            android:scaleType="fitStart"
+            android:visibility="invisible"
+            app:srcCompat="@drawable/entertest" />
+
+        <TextView
+            android:id="@+id/textViewEnterTest"
+            android:layout_width="108dp"
+            android:layout_height="83dp"
+            android:layout_gravity="center|top"
+            android:layout_weight="1"
+            android:gravity="center|top"
+            android:paddingBottom="25dp"
+            android:text="Enter Test"
+            android:textColor="#FFC107"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:visibility="invisible" />
+
+        <ImageButton
+            android:id="@+id/imageButtonViewTest"
+            android:layout_width="60dp"
+            android:layout_height="89dp"
+            android:layout_gravity="center|top"
+            android:layout_weight="1"
+            android:background="#FFFFFF"
+            android:onClick="viewTestActivity"
+            android:scaleType="fitStart"
+            android:visibility="invisible"
+            app:srcCompat="@drawable/viewtest" />
+
+        <TextView
+            android:id="@+id/textViewViewTest"
+            android:layout_width="94dp"
+            android:layout_height="83dp"
+            android:layout_weight="1"
+            android:gravity="center|top"
+            android:paddingBottom="25dp"
+            android:text="View Test"
+            android:textColor="#009688"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:visibility="invisible" />
+
+        <ImageButton
+            android:id="@+id/imageButtonUpdateTest"
+            android:layout_width="50dp"
+            android:layout_height="92dp"
+            android:layout_gravity="center|top"
+            android:layout_weight="1"
+            android:background="#FFFFFF"
+            android:onClick="updateActivity"
+            android:scaleType="fitStart"
+            android:visibility="invisible"
+            app:srcCompat="@drawable/updatetest" />
+
+        <TextView
+            android:id="@+id/textViewUpdateTest"
+            android:layout_width="281dp"
+            android:layout_height="85dp"
+            android:layout_weight="1"
+            android:gravity="center|top"
+            android:text="Update / Display Applicant"
+            android:textColor="#8BC34A"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:visibility="invisible" />
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

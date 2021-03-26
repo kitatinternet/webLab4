@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="text_main_activity_title">Driver\'s license Examiners Application</string>
+    <string name="text_main_login_activity_title">Login</string>
+    <string name="text_applicant_activity_title">Enter / View Applicant</string>
+    <string name="text_test_activity_title">Enter test data for applicant</string>
+    <string name="text_view_test_activity_title">View Test Information</string>
+    <string name="text_update_activity_title">Update / Display Applicant</string>
+</resources>
